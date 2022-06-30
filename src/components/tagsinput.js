@@ -1,6 +1,8 @@
 import * as React from "react"
 import "../styles/tagsinput.scss"
 
+// based off of this code: https://codepen.io/prvnbist/pen/jJzROe  (and video: https://www.youtube.com/watch?v=RqQpnU6rbDE)
+
 const TagsInput = props => {
 	const [tags, setTags] = React.useState(props.tags);
 	const removeTags = indexToRemove => {
